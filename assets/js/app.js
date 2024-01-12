@@ -27,10 +27,6 @@ submit.addEventListener('click', async function(){
 
 //affichage de l'image du pokemon
 
-    // let cache = document.createElement('div');
-    // containerWhiteSquarre.appendChild(cache);
-    
-
     let image1 = document.createElement('IMG');
     image1.src = movies['sprites']['front_default'];    
     image.appendChild(image1); 

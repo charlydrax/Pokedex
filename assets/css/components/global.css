@@ -36,20 +36,18 @@
     gap: 5px;
 }
 #screen{
-    width: 100px; /* changement*/
+    width: 100px;
     height: 100px;
-    background-image: url(pokeball.png);
     display: flex;
     justify-content: center;
     align-items: center;
     background-size: 100px;
-    margin-left: auto; /* ajout*/
-    margin-right: auto; /* ajout */
+    margin-left: auto;
+    margin-right: auto;
 }
 .type{
     display: flex;
 }
-/* ajout james */
 .screenDetails{
     color: white;
     background-image: url(green_screen.webp);
@@ -147,9 +145,8 @@
     border-radius: 100%;
     height: 180%;
 }
-/* fin ajout james */
 .pokeContainerHaut{
-    height: 75px; /* changement*/
+    height: 75px;
 }
 .squarre{
     height: 70px;
@@ -206,7 +203,6 @@
 .led{
     width: 10px;
     height: 10px;
-    /* border: solid 1px black; */
     border-radius: 100%;
     margin-top: 5px;
 }
@@ -219,7 +215,6 @@
 .led3{
     background: green;
 }
-/* ajout de charly */
 .m_LR{
     margin-left: auto;
     margin-right: auto;
@@ -237,6 +232,27 @@
 .lowPokeCase{
     height: 100px;
     padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.number{
+    margin-left: 200px;
+}
+#submit{
+    width: 60px;
+    height: 30px;
+    background: blue;
+    color: yellow;
+    border-radius: 20%;
+    font-weight: bold;
+    /* margin-left: 70px; */
+}
+form{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
 }
 .littleBall1{
     height: 30px;
@@ -283,4 +299,3 @@ table{
     display: flex;
     justify-content: space-around;
 }
-/* espace charly */
